@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Resource Include="Fonts/ABeeZee-Regular.ttf" />
+    <Content Include="Fonts/OFL.txt" CopyToOutputDirectory="PreserveNewest" />
+    <ProjectReference Include="..\HakoMark.Core\HakoMark.Core.csproj" />
+    <ProjectReference Include="..\HakoMark.Overlay\HakoMark.Overlay.csproj" />
+    <ProjectReference Include="..\HakoMark.Windows\HakoMark.Windows.csproj" />
+  </ItemGroup>
+</Project>

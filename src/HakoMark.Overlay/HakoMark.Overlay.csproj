@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HakoMark.Core\HakoMark.Core.csproj" />
+    <ProjectReference Include="..\HakoMark.Drawing\HakoMark.Drawing.csproj" />
+  </ItemGroup>
+</Project>

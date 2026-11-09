@@ -1,0 +1,57 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HakoMark.App", "src\HakoMark.App\HakoMark.App.csproj", "{5B0DC8BB-6505-4D57-A2F2-0C15D7E2D3F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HakoMark.Core", "src\HakoMark.Core\HakoMark.Core.csproj", "{B8D40F18-8D92-4F41-A2BB-2C0A9F03F4E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HakoMark.Drawing", "src\HakoMark.Drawing\HakoMark.Drawing.csproj", "{C448D153-8D55-46BE-8D3B-2BAA3C7E21AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HakoMark.Overlay", "src\HakoMark.Overlay\HakoMark.Overlay.csproj", "{B2B0F39A-1B55-497D-9D84-0BD93A61F75B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HakoMark.UI", "src\HakoMark.UI\HakoMark.UI.csproj", "{F3DBBCDF-7AA4-41DA-A1E8-AC9AC3C53792}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HakoMark.Windows", "src\HakoMark.Windows\HakoMark.Windows.csproj", "{8A4AD294-C89E-4D02-AB5F-8E3AF5F9230C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HakoMark.Tests", "tests\HakoMark.Tests\HakoMark.Tests.csproj", "{6DF1BFE7-7E72-4BAC-9048-9F7B39EA81CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B0DC8BB-6505-4D57-A2F2-0C15D7E2D3F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B0DC8BB-6505-4D57-A2F2-0C15D7E2D3F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B0DC8BB-6505-4D57-A2F2-0C15D7E2D3F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B0DC8BB-6505-4D57-A2F2-0C15D7E2D3F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8D40F18-8D92-4F41-A2BB-2C0A9F03F4E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8D40F18-8D92-4F41-A2BB-2C0A9F03F4E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8D40F18-8D92-4F41-A2BB-2C0A9F03F4E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8D40F18-8D92-4F41-A2BB-2C0A9F03F4E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C448D153-8D55-46BE-8D3B-2BAA3C7E21AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C448D153-8D55-46BE-8D3B-2BAA3C7E21AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C448D153-8D55-46BE-8D3B-2BAA3C7E21AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C448D153-8D55-46BE-8D3B-2BAA3C7E21AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2B0F39A-1B55-497D-9D84-0BD93A61F75B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2B0F39A-1B55-497D-9D84-0BD93A61F75B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2B0F39A-1B55-497D-9D84-0BD93A61F75B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2B0F39A-1B55-497D-9D84-0BD93A61F75B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3DBBCDF-7AA4-41DA-A1E8-AC9AC3C53792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3DBBCDF-7AA4-41DA-A1E8-AC9AC3C53792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3DBBCDF-7AA4-41DA-A1E8-AC9AC3C53792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3DBBCDF-7AA4-41DA-A1E8-AC9AC3C53792}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A4AD294-C89E-4D02-AB5F-8E3AF5F9230C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A4AD294-C89E-4D02-AB5F-8E3AF5F9230C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A4AD294-C89E-4D02-AB5F-8E3AF5F9230C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A4AD294-C89E-4D02-AB5F-8E3AF5F9230C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DF1BFE7-7E72-4BAC-9048-9F7B39EA81CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DF1BFE7-7E72-4BAC-9048-9F7B39EA81CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DF1BFE7-7E72-4BAC-9048-9F7B39EA81CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DF1BFE7-7E72-4BAC-9048-9F7B39EA81CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

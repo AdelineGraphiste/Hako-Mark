@@ -1,0 +1,54 @@
+HAKO MARK — AIDE RAPIDE — VERSION 0.3.3
+
+ACTIVER AU CLAVIER
+F8 active le dernier outil choisi depuis ton navigateur ou ton logiciel.
+Un deuxième appui arrête l’annotation. Après un tracé, appuie à nouveau
+pour recommencer : inutile d’attendre que le dessin disparaisse.
+Choisis X ou une autre touche dans Réglages > Application, puis Enregistrer.
+Attention : une lettre choisie est réservée à Hako Mark dans toutes les
+applications tant qu’il tourne, même barre masquée. Préfère F8 pour écrire.
+L’activation est suspendue dans les fenêtres de réglages et d’aide.
+Ctrl + Maj + A reste également disponible.
+
+INSTALLER
+Double-clique sur « Installer Hako Mark.exe », puis sur INSTALLER.
+Tu peux réinstaller directement par-dessus l’ancienne version.
+Tes préférences sont conservées. Le raccourci Hako Mark est sur le Bureau.
+
+UNE ANNOTATION, PUIS NAVIGATION LIBRE
+1. Clique sur Flèche, Cercle, Cadre, Ligne ou Stylo dans la barre.
+2. Clique, maintiens et glisse sur ton écran.
+3. Relâche : tu peux immédiatement défiler, changer d’onglet ou cliquer.
+4. Pour annoter à nouveau, clique sur un outil ou utilise Ctrl + Maj + A.
+
+Ce comportement est activé par défaut, y compris après une mise à jour.
+La flèche reste affichée selon la durée choisie. Elle est fixée à l’écran :
+elle ne suit pas le texte quand tu fais défiler une page.
+En réunion, une durée de 2 ou 3 secondes est pratique.
+Utilise Tout effacer si tu veux repartir sur une nouvelle page.
+
+MODE CONTINU
+Dans Réglages > Application, décoche :
+« Une annotation, puis retour automatique à la navigation ».
+Tu peux alors enchaîner les tracés.
+Pour rendre la main à ton logiciel : clic droit (si activé), Échap,
+la touche choisie dans les réglages ou le bouton TERMINER.
+
+ANNULER / RÉTABLIR
+Les boutons de la barre fonctionnent même en navigation.
+Ctrl + Z et Ctrl + Y concernent Hako Mark seulement en mode annotation ;
+en navigation, ils restent les raccourcis de ton logiciel.
+
+BARRE ET RÉGLAGES
+HOME ouvre l’accueil. — réduit dans la barre des tâches ; restaure Hako Mark
+pour retrouver la barre. × masque la barre. La poignée sert à la déplacer,
+les bords à la redimensionner. Le bouton ? ouvre l’aide complète.
+Chaque outil possède ses réglages d’apparence et de durée.
+La flèche du modèle se choisit dans Réglages > Flèche > Courbée pleine.
+
+DÉSINSTALLER
+Double-clique sur « Desinstaller Hako Mark.exe » et confirme.
+Tes préférences sont conservées.
+
+Créé par Adeline Courtois — Graphiste
+adelinecourtois.fr — HakoTools

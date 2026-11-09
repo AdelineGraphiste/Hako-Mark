@@ -1,0 +1,13 @@
+.tools/
+**/bin/
+**/obj/
+release/
+installer/payload/
+.prep-backup/
+.visual-review/
+installer/Build-Compat.ps1
+installer/HakoMarkCompat.cs
+installer/Install-HakoMark.ps1
+installer/Install Hako Mark.cmd
+installer/Uninstall-HakoMark.ps1
+installer/Uninstall Hako Mark.cmd
