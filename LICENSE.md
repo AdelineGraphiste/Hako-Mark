@@ -31,4 +31,4 @@ Cette autorisation ne s’applique que dans la mesure où vous respectez les con
 
 Pour demander une autorisation de redistribution ou d’exploitation différente : [adelinecourtois.fr](https://adelinecourtois.fr/).
 
-Ce texte est une proposition de licence particulière et ne constitue pas une licence open source reconnue. Une relecture par un professionnel du droit est recommandée avant publication.
+
