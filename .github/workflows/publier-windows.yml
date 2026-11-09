@@ -1,0 +1,40 @@
+name: Publier la version Windows
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+      - name: Vérifier le projet
+        run: dotnet run --project tests/HakoMark.Tests -c Release
+      - name: Construire l’installeur
+        shell: pwsh
+        run: ./installer/Build-Installer.ps1
+      - name: Préparer l’archive Windows
+        shell: pwsh
+        run: |
+          $package = 'release/Hako Mark Installer'
+          $files = @(
+            "$package/Installer Hako Mark.exe",
+            "$package/Desinstaller Hako Mark.exe",
+            "$package/Aide Hako Mark.txt",
+            "$package/Conditions utilisation Hako Mark.md"
+          )
+          Compress-Archive -LiteralPath $files -DestinationPath "Hako-Mark-$env:GITHUB_REF_NAME-Windows.zip" -CompressionLevel Optimal
+      - name: Publier sur GitHub Releases
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create $env:GITHUB_REF_NAME "Hako-Mark-$env:GITHUB_REF_NAME-Windows.zip" --title "Hako Mark 0.3.3 - Windows" --notes "Télécharge le ZIP, décompresse-le, puis double-clique sur Installer Hako Mark.exe. Le dossier contient aussi le désinstalleur, l’aide et les conditions d’utilisation. Usage gratuit personnel et professionnel ; revente et redistribution interdites sans autorisation écrite."
